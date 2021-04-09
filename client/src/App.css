@@ -1,0 +1,36 @@
+body {
+padding: 0;
+margin: 0;
+}
+.App{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.logIn {
+width: 600px;
+height: 350px;
+border: 5px solid #00f1ff;
+border-radius: 10px;
+display: grid;
+place-items: center;
+}
+
+.logIn input{
+margin:10px;
+width: 200px;
+height: 40px;
+border: 1px solid #0091ff;
+background-color: transparent;
+padding-left: 10px;
+color: white;
+font-size: 15px;
+}
+
+.logIn input:focus{
+  outline: none;
+
+  
+  }
