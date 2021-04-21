@@ -19,10 +19,14 @@ function App() {
      <div className="inputs">
        <input type="text" placeholder ="name"/>
        <input type ="text" placeholder ="room"/>
+       <input type="text" placeholder ="name"/>
+       <input type ="text" placeholder ="room"/>
+       <input type="text" placeholder ="name"/>
+       <input type ="text" placeholder ="room"/>
        </div>
        <button>  Enter Chat </button>
        </div>
-    ):        (<h1> You are Lodgged In</h1>)}
+    ):        (<h1> hello folks, You are Lodgged In</h1>)}
   </div>
   );
 }
