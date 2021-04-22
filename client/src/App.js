@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import io from 'socket.io-client'
 import './App.css';
 let socket;
-const CONNECTION_PORT = 'localhost:3000/'
+const CONNECTION_PORT = 'localhost:3000/'we
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -19,10 +19,7 @@ function App() {
      <div className="inputs">
        <input type="text" placeholder ="name"/>
        <input type ="text" placeholder ="room"/>
-       <input type="text" placeholder ="name"/>
-       <input type ="text" placeholder ="room"/>
-       <input type="text" placeholder ="name"/>
-       <input type ="text" placeholder ="room"/>
+     
        </div>
        <button>  Enter Chat </button>
        </div>
